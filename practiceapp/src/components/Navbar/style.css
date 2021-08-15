@@ -1,0 +1,12 @@
+.navStyle {
+    color: white;
+    background-color: black;
+    max-width:100%;
+  }
+  
+  .flex {
+    display:flex;
+    justify-content: space-between;
+  
+  
+  }
