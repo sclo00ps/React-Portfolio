@@ -1,14 +1,17 @@
 import React from "react";
 import logo from './logo.svg';
 import './App.css';
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-          <Jumbotron/>
-          <Route exact path="/" component={LandingPage} />
-      <header className="App-header">
+        <Navbar />
+          <Hero/>
+            <Route exact path="/" component={LandingPage} />
+     {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -22,6 +25,7 @@ function App() {
           Learn React
         </a>
       </header>
+  */}
       <Footer />
     </div>
   );
