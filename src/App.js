@@ -10,6 +10,7 @@ import Footer from '././components/Footer';
 import AboutMe from './components/About';
 import Projects from './components/Projects';
 import Contacts from './components/Contacts';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <AboutMe/>
           <Projects/>
           <Contacts/>
+          <Resume/>
 
          {/*} <Switch>
                      <Route exact path="/" component={Home} />
