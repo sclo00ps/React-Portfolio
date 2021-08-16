@@ -6,15 +6,21 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Hero from '././components/Hero';
 import Navbar from '././components/Navbar';
 import Footer from '././components/Footer';
-import Home from './pagees/Home/Home';
-
+//import Home from './pages/Home/Home';
+import AboutMe from './components/About';
+import Projects from './components/Projects';
+import Contacts from './components/Contacts';
 
 function App() {
   return (
     <div className="App">
         <Navbar />
           <Hero/>
-          <Switch>
+          <AboutMe/>
+          <Projects/>
+          <Contacts/>
+
+         {/*} <Switch>
                      <Route exact path="/" component={Home} />
                      <Route exact path="/aboutMme" component={AboutMe} />
                      <Route exact path="/ projects" component={Projects} />
@@ -22,8 +28,10 @@ function App() {
                      <Route exact path="/resume" component={Resume} />
        
        </Switch>
+  */}
       <Footer />
     </div>
+
   );
 }
 

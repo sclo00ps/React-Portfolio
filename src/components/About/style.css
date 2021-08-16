@@ -1,0 +1,15 @@
+.section {
+    background: #f3e5f5;
+    padding: 20px;
+  }
+  
+  
+  .section img {
+    height: auto;
+    width: 400px;
+  }
+  
+  .fluid img{
+    max-width: 100%; 
+    height: auto;
+  }

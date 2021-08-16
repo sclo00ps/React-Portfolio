@@ -12,23 +12,14 @@ const Footer = () => {
         </div>
 
     
-        <div className="titleR">
-          <h5>Contacts</h5>
-          <ul>
-            <li className="list">
-              <a href="#!">louginescott@gmail.com</a>
-            </li>
-            <li className="list">
-              <a href="#!">https://github.com/sclo00ps</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+       
 
       <div className="footer-copyright text-center">
-        &copy; {new Date().getFullYear()} Copyright:{"L.K.Y. Enterprises, Inc. "}
+        &copy; {new Date().getFullYear()} Copyright:{"L.K.Y. Enterprises, Inc."}
       </div>
     </div>
+  </div>
+
   );
 };
 
