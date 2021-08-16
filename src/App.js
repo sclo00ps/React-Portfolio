@@ -17,20 +17,21 @@ function App() {
     <div className="App">
         <Navbar />
           <Hero/>
+
           <AboutMe/>
           <Projects/>
           <Contacts/>
           <Resume/>
 
-         {/*} <Switch>
-                     <Route exact path="/" component={Home} />
+        <Switch>
+                     
                      <Route exact path="/aboutMme" component={AboutMe} />
                      <Route exact path="/ projects" component={Projects} />
                      <Route exact path="/contacts" component={Contacts} />
                      <Route exact path="/resume" component={Resume} />
        
        </Switch>
-  */}
+ 
       <Footer />
     </div>
 
