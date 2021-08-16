@@ -14,7 +14,7 @@ function Projects() {
             <div>
                 <div className="container-2">
                     <h2>Projects</h2>
-                    <a href="https://sclo00ps.github.io/mini-project_050521/">
+                    <a href="https://sclo00ps.github.io/fashion-saturation-050521/">
                         <img src="./fashion_sat.jpg" class="fluid" />
                     </a>
                 </div>
